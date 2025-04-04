@@ -52,7 +52,7 @@ const subscriptionSchema = new mongoose.Schema({
     },
     user: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'Úser',
+        ref: 'User',
         required: true,
         index: true,
     }
